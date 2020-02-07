@@ -11,6 +11,7 @@ android {
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -32,5 +33,13 @@ dependencies {
     testCompile 'junit:junit:4.12'
     testCompile "org.mockito:mockito-core:2.1.0"
     testCompile "org.robolectric:robolectric:3.1.2"
+
+    androidTestImplementation  'com.android.support.test.espresso:espresso-core:2.2.2'
+    androidTestImplementation  'androidx.test.espresso:espresso-core:3.1.0'
+    androidTestImplementation  'androidx.test:runner:1.1.0'
+    androidTestImplementation  'androidx.test:rules:1.1.0'
+    androidTestImplementation  'androidx.test:core:1.0.0'
+    androidTestImplementation  'androidx.test.ext:junit:1.0.0'
+
 
 }

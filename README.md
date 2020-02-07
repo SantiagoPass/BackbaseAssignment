@@ -1,6 +1,6 @@
 # Santiago`s BackbaseAssignment
 
-<h2>How to execute the tests</h2>
+## How to execute the tests
 
 #### Configure connected device
 To execute the Automated test cases is recommended to turn off system animations on the device or emulator we will be using. Since Espresso is a UI testing framework, system animations can introduce flakiness in our tests. Under Settings => Developer options disable the following 3 settings and restart the device:
@@ -12,6 +12,7 @@ To execute the Automated test cases is recommended to turn off system animations
 * Open the Gradle window and find connectedDebugAndroidTest under Tasks => verification.
 
 * Right click and select Run
+
 ![](https://raw.githubusercontent.com/SantiagoPass/BackbaseAssignment/master/images/execution_from_gradle.png)
 
 ## Automation report
